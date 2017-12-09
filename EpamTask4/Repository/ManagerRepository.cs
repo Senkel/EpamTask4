@@ -16,26 +16,5 @@ namespace EpamTask4.Repository
                     .FirstOrDefault(m => m.ManagerName == name);
             }
         }
-
-        public decimal GetSumById(int id)
-        {
-            using (var entities = new MyDBEntities())
-            {
-                return entities.Manager
-                    .FirstOrDefault(m => m.Id == id)
-                    .InfoSale.Sum(x => x.Sum);
-            }
-        }
-
-        public IEnumerable<InfoSale> GetSalesByManagerId(int id)
-        {
-            using (var context = new MyDBEntities())
-            {
-                return context.Manager
-                    .FirstOrDefault(m => m.Id == id)
-                    .InfoSale
-                    .ToList();
-            }
-        }
     }
 }

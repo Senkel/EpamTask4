@@ -19,6 +19,7 @@ namespace Business.Services
             if (product == null)
             {
                 product = new Product() { Title = title };
+                
                 productRepo.Insert(product);
             }
 

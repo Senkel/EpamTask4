@@ -19,6 +19,7 @@ namespace Business.Services
             if (client == null)
             {
                 client = new Client() { ClientName = name };
+                
                 clientRepo.Insert(client);
             }
 

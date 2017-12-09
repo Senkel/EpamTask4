@@ -16,11 +16,12 @@ namespace Business.Services
 
             Manager manager = managerRepo.GetByName(name);
 
-            var test = managerRepo.GetAll();
+           
 
             if (manager == null)
             {
                 manager = new Manager() { ManagerName = name };
+               
                 managerRepo.Insert(manager);
             }
 

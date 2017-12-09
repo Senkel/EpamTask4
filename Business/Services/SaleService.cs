@@ -22,7 +22,7 @@ namespace Business.Services
                 ID_Client = clientId,
                 ID_Product = productId
             };
-
+            
             saleRepo.Insert(sale);
         }
     }

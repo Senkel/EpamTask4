@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -11,7 +12,7 @@ namespace Business
     {
         public Sales Parse(string path)
         {
-            var file = System.IO.Path.GetFileName(path);
+            var file = Path.GetFileName(path);
             var rgx = new Regex("^(?<manager>\\w*)_(?<dd>\\d{2})(?<mm>\\d{2})(?<yyyy>\\d{4}).csv$");
 
             var matches = rgx.Matches(file);

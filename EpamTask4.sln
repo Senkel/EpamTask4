@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpamTask4", "EpamTask4\Epam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{61E64EB3-D05B-43FC-B1F7-2158928BC507}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsService", "WindowsService\WindowsService.csproj", "{4BC5DDBB-24A3-4999-9C0F-145F238F2A94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{61E64EB3-D05B-43FC-B1F7-2158928BC507}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61E64EB3-D05B-43FC-B1F7-2158928BC507}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61E64EB3-D05B-43FC-B1F7-2158928BC507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BC5DDBB-24A3-4999-9C0F-145F238F2A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC5DDBB-24A3-4999-9C0F-145F238F2A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC5DDBB-24A3-4999-9C0F-145F238F2A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC5DDBB-24A3-4999-9C0F-145F238F2A94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

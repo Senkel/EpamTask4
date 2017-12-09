@@ -10,9 +10,9 @@ namespace EpamTask4.Repository
     {
         public Client GetByName(string name)
         {
-            using (var context = new MyDBEntities())
+            using (var entities = new MyDBEntities())
             {
-                return context.Client
+                return entities.Client
                     .FirstOrDefault(m => m.ClientName == name);
             }
         }
